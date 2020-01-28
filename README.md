@@ -1,5 +1,5 @@
 # ViaGoGo Interview Task
-
+ -[Live Demo](https://orestefe-viagogo.netlify.com)
 ## Part 1
 
 - Given the javascript object containing event data, built a page that displays a list of events for one artist.
