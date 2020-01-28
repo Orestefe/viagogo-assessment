@@ -1,68 +1,25 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ViaGoGo Interview Task
 
-## Available Scripts
+## Part 1
 
-In the project directory, you can run:
+- Given the javascript object containing event data, built a page that displays a list of events for one artist.
+- Update the design to show the user all the important information that a customer would want to know when deciding on which event to go to.
+  - Important information:
+    1. Event Name / Artist
+    2. Event Date / Time (Date, Day, Time, Month)
+    3. Event Venue & City
+    4. Event Starting Price
+    5. Event URL for purchasing tickets
+    6. Event Ticket Inventory to warn customers of low remaining stock
 
-### `npm start`
+## Part 2
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Design and implement a filter that will allow users to filter by location. The filter should have a full list of locations where all locations are visible and allows the user to select a location.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Part 3
 
-### `npm test`
+- Tell us about the possible reasons that the filter your implemented in part 2 did not help the customer experience.
+  - While working on the filter component I put myself in the customers shoes and imagined a couple scenarios that would affect my experience while using the application. For starters, while the list of locations from the data set wasn't too lengthy, I would imagine that for an international artist such as Elton John, the list would contain a significant amount of cities. If I were the user and I had to scroll through a list of 100+ cities it would negatively affect my experience and I might even consider using a competitor's site. Also, while the filter does have a search feature to locate specific cities, they may also want to look for events in neighboring locations which my search feature does not account for.
+- What could you change to improve the filter experience, and why do you think it would be better for the customer?
+- I believe there are a couple different approaches that we could take with the filter component to improve the user's experience. To begin, we could ask for the user's location and within the filter we could create an option group that lists locations near them or within their country giving them a more tailored experience. We could also group the locations by specific country or state depending on if the event is part of an international tour. This will allow the user to find locations easily based on geography, instead of searching through an alphabetical list of locations.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `npm run build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify

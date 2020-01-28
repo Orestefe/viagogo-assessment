@@ -1,0 +1,33 @@
+body {
+	background-color: #f6f8f9;
+	font-family: Helvetica, sans-serif;
+	color: #5c6570;
+}
+
+.eventHeader {
+	position: relative;
+	max-width: 900px;
+	height: 200px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+.eventTitle {
+	color: #fff;
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	padding-left: 10px;
+}
+
+.artist-img {
+	top: 0;
+	left: 0;
+	max-width: 100%;
+	min-height: 200px;
+	margin: -150px 0 0 0;
+}
+@media only screen and (max-width: 600px) {
+	.artist-img {
+		margin: 0;
+	}
+}
